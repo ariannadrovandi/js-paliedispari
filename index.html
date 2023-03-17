@@ -11,8 +11,7 @@
 </head>
 <body class="bg-dark">
     
-        <h1 class="text-center text-white font-monospace m-5">Parole Palindrome  e Pari o Dispari</h1>
-
+    <h1 class="text-center text-white font-monospace m-5">Parole Palindrome  e Pari o Dispari</h1>
 
     <div class="container d-flex justify-content-between">
         <div class="box1 m-5 bg-info-subtle p-3">
@@ -23,11 +22,29 @@
                 </div>
                 <button type="submit" class="btn btn-outline-primary btnReverse">Controlla</button>
             </form>
-            <h5 class="py-4" id="result"></h5>
+            <h5 class="py-4" id="wordresult"></h5>
         </div>
 
-        <div class="box2 text-white">
-            a
+        <div class="box2 m-5 bg-danger-subtle p-3">
+            <h4 class="mx-3 my-2 font-monospace text-danger-emphasis">Pari o Dispari?</h4>
+            <div class="d-flex flex-column ad-alert">
+                <select id="selectEoO" class="m-3 w-50">
+                    <option selected>Scegli tra Pari e Dispari</option>
+                    <option value="1">Pari</option>
+                    <option value="2">Dispari</option>
+                </select>
+                <input type="number" class="w-50 m-3" id="numberUser" placeholder="Scegli un numero tra 1 e 5">
+            </div>
+
+            <div class="numComputer d-flex align-items-center">
+                <button type="button" class="btn btn-outline-danger btnNum2 d-block m-3">Numero random</button>           
+            </div>
+
+            <button class="btn btn-outline-danger btnWinner d-block m-3">Invia</button>
+
+            <div class="result">
+                <h6></h6>
+            </div>
         </div>
     </div>
 
