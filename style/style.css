@@ -1,0 +1,10 @@
+.box1{
+    width: 700px;
+    height: 350px;
+}
+
+.box2{
+    width: 700px;
+    height: 350px;
+    border: 1px solid white;
+}
